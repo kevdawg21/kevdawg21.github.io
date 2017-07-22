@@ -1,0 +1,241 @@
+* {
+
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+html {height:100%;
+overflow:hidden;}
+
+body {height:100%;
+overflow:auto;
+background-image:url("../assets/cheap_diagonal_fabric.png");}
+
+#header {background-color:mintcream;
+position:fixed;
+top:0;
+width:100%;
+padding:33px;
+padding-right:200px;
+border-bottom:2px;
+border-style:solid;
+border-bottom-color:gray;
+margin-bottom:40px;}
+
+#name {background-color:teal;
+color:white;
+font-size:30px;
+float:left;
+padding:18px;
+position:absolute;
+top:0px;
+left:150px;
+font-family:georgia, serif;
+font-weight:bold;
+border-left:1px;
+border-style:solid;
+border-left-color:lightgray;
+border-right:1px;
+border-style:solid;
+border-right-color:lightgray;}
+
+
+#about {font-size:12pt;
+color:gray;
+position:absolute;
+text-decoration:none;
+right:500;
+top:25;}
+
+#portfolio {font-size:12pt;
+color:gray;
+position:absolute;
+text-decoration:none;
+right:420;
+top:25;}
+
+#contact {font-size:12pt;
+color:gray;
+position:absolute;
+text-decoration:none;
+right:345;
+top:25;}
+
+#separ1 {font-size:12pt;
+color:gray;
+position:absolute;
+right:475;
+top:25;}
+
+#separ2 {font-size:12pt;
+color:gray;
+position:absolute;
+right:395;
+top:25;}
+
+#centerback {clear:both;
+position:relative;
+flex: 1 0 auto;}
+
+#aboutme {background-color:mintcream;
+height:1000;
+width:650;
+float:left;
+position:absolute;
+top:100;
+left:100;
+border: 1px solid lightgray;
+z-index:-99;}
+
+#foot {background-color:dimgray;
+padding:33px;
+position:fixed;
+bottom:0;
+width:100%;
+border-top:7px;
+border-style:solid;
+border-top-color:teal;}
+
+
+#foottext {font-size:8pt;
+color:mintcream;
+text-align: center;}
+
+
+#bioheader {color:teal;
+font-size:30px;
+font-family:georgia, serif;
+font-weight:bold;
+text-align:left;
+position:absolute;
+clear:both;
+top:30;
+left:20;}
+
+.contenthr {width:600;
+height:2px;
+background-color:lightgray;
+align-items:left;}
+
+#aboutimg {
+margin:110px 20px 20px 20px;
+float:left;
+border: 1px solid lightgray;}
+
+#biotext {text-align:left;
+display:block;
+margin-top:110px;
+float:right;}
+
+#connect {background-color:mintcream;
+height:190;
+width:270;
+position:absolute;
+float:left;
+top:100;
+left:790;
+border: 1px solid lightgray;
+z-index:-99;}
+
+#conhead {color:teal;
+font-size:24px;
+font-family:georgia, serif;
+font-weight:bold;
+text-align:center;
+position:absolute;
+clear:both;
+top:20;
+left:28;}
+
+#connecthr {width:225;
+height:1px;
+background-color:lightgray;
+align-items:left;}
+
+#github {position:absolute;
+top:90;
+left:28;
+border: 1px solid lightgray;}
+
+#linkedin {position:absolute;
+top:90;
+left:111;
+border: 1px solid lightgray;}
+
+#stack {position:absolute;
+top:90;
+right:30;
+border: 1px solid lightgray;}
+
+#pfolio {background-color:mintcream;
+height:620;
+width:650;
+float:left;
+position:absolute;
+top:100;
+left:100;
+border: 1px solid lightgray;
+overflow:none;
+z-index:-99;}
+
+#contactmain {background-color:mintcream;
+height:620;
+width:650;
+float:left;
+position:absolute;
+top:100;
+left:100;
+border: 1px solid lightgray;
+z-index:-99;}
+
+#nameform {position:absolute;
+color:gray;
+top:100;
+left:20;}
+
+#emailform {position:absolute;
+color:gray;
+top:150;
+left:20;}
+
+#messageform {position:absolute;
+color:gray;
+top:200;
+left:20;}
+
+#submitbtn{position:absolute;
+top:490;
+left:20;
+padding:6px 20px 6px 20px;
+font-size:12pt;
+background-color:teal;
+color:white;
+border:1px solid;
+border-color:lightblue;}
+
+#pfgally {display:inline-block;
+position:relative;
+top:90;
+left:23;}
+
+#nononocat {display:block;
+float:left;
+list-style-image:url('assets/assets/nononocat.jpeg');}
+
+#gallery {margin-top:90;
+margin-left:19;}
+
+ul {list-style:circle;}
+
+li {margin-left:50px;}
+
+.aboutp {margin-left:20px; 
+margin-right:20px;}
+
+.postscript {margin-left:20px; 
+margin-right:20px;
+font-size:9pt;}
+
+.asterb {margin-left:20px; 
+margin-right:20px;
+font-weight:bold;}
+
