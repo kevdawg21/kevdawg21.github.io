@@ -1,0 +1,175 @@
+* {font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	box-sizing:border-box;}
+
+body {height:100%;
+
+background-image:url("../assets/cheap_diagonal_fabric.png");}
+
+h1 {font-weight:bold;}
+
+h2 {font-size:24;
+	font-family: georgia, serif;
+	font-weight:bold;
+	color:teal;
+	background-color:mintcream;
+	text-align:center;
+	padding-top:30;
+		padding-bottom:30;}
+
+p {margin-left:20;
+margin-right:20;}
+
+
+.navbar-default {background-color:mintcream;
+			padding:0;
+			border-bottom: 1px solid;
+			border-bottom-color:gray;
+			position:fixed;
+			top:0;
+			width:100%;
+			z-index:1;
+			margin:0 0 20 0;}
+
+#navbar-brand {background-color:teal;
+font-size:30px;
+float:left;
+display:inline-block;
+padding:18px;
+position:static;
+top:0px;
+margin:0 0 0 150px;
+color:white;
+font-family:georgia, serif;
+font-weight:bold;
+border-left:1px;
+border-style:solid;
+border-left-color:lightgray;
+border-right:1px;
+border-style:solid;
+border-right-color:lightgray;}
+
+.navbar-nav {margin-top:10;
+			margin-right:15;}
+
+li.navLink {display:inline;
+		z-index:1;}
+
+.page-header {
+    border-bottom: none;
+	background-color:mintcream;
+	color:teal;
+	font-family:georgia, serif;
+	font-weight:bold;
+	font-size:30px;
+	margin-left:20;
+	margin-top:20;
+	padding-top:20;}
+
+.aboutBio {background-color:mintcream;
+			margin-top:20;
+			padding-bottom:80;
+			position:relative;
+			top:80;}
+
+.aboutImg {float:left;
+		margin-bottom:0;
+		margin-right:15;
+		margin-left:20;
+		border: 1px lightgray solid;}
+
+ul.circle {list-style:circle;}
+
+li.facts {margin-left:50px;
+}
+
+.aboutPort {background-color:mintcream;
+			margin-top:20;
+			padding-bottom:200;
+			position:relative;
+			top:80;}
+
+#gallery {margin-top:90;
+margin-left:20;}
+
+.pfolioImage {margin-right:20;
+			border:1px lightgray solid;}
+
+.aboutCont {background-color:mintcream;
+			margin-top:20;
+			padding-bottom:180;
+			position:relative;
+			top:80;}
+
+	#nameDiv {
+	color:gray;
+	margin-left:20;}
+
+	#nameform {
+	color:gray;
+	width:370px;}
+
+	#emailDiv {
+	color:gray;
+	margin-left:20;}
+
+	#emailform {
+	color:gray;
+	width:370px;}
+
+	#messageDiv	{
+	color:gray;
+	margin-left:20;}
+
+	#messageform {
+	color:gray;
+	width:370px;
+	height:250px;}
+
+		#submitbtn{position:absolute;
+	top:500;
+	left:20;
+	padding:6px 20px 6px 20px;
+	font-size:12pt;
+	background-color:teal;
+	color:white;
+	border:1px solid;
+	border-color:lightblue;}
+
+.panel, .panel-default {position:relative;
+left:40;}
+
+.panelBody {padding-bottom:75;
+		margin-bottom:100;
+			background-color:mintcream;
+		position:relative;
+		top:80;}
+
+.panelHeading {background-color:mintcream;}
+.panel {background-color:mintcream;}
+.panel-default {background-color:mintcream;}
+
+#github {position:absolute;
+		margin-left: 20;}
+
+#linkedin{position:absolute;
+		left:33%;}
+
+#stack{position:absolute;
+	right:30;}
+
+.vl{margin-top:14;}
+
+.wrapper {width:96%;
+	margin:auto;}
+
+footer {padding:25 0 25 0;
+
+		background-color:dimgray;
+		border-top:7px teal solid;
+		position:fixed;
+		bottom:0;
+		width:100%;}
+
+.footText {font-size:8pt;
+color:mintcream;
+text-align: center;}

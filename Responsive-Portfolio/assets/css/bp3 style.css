@@ -1,0 +1,288 @@
+@media screen and (min-width:641px) and (max-width:768px) {
+
+	* {font-family: 'Helvetica Neue', Helvetica, sans-serif;}
+
+	body {height:100%;
+	overflow:auto;
+	background-image:url("../assets/cheap_diagonal_fabric.png");}
+
+	.wrapper{width:700px;}
+
+	#header {background-color:mintcream;
+	position:static;
+	top:0;
+	width:100%;
+	padding-top:33px;
+	padding-bottom:33px;
+	border-bottom:2px;
+	border-style:solid;
+	border-bottom-color:gray;
+	z-index:2;
+	display:inline-block;}
+
+	#name {background-color:teal;
+	color:white;
+	font-size:30px;
+	padding:18px;
+	position:absolute;
+	top:0px;
+	left:20px;
+	font-family:georgia, serif;
+	font-weight:bold;
+	border-left:1px;
+	border-style:solid;
+	border-left-color:lightgray;
+	border-right:1px;
+	border-style:solid;
+	border-right-color:lightgray;}
+
+	#about {font-size:12pt;
+	color:gray;
+	text-decoration:none;
+	position:absolute;
+	right:175;
+	top:25;}
+
+	#portfolio {font-size:12pt;
+	color:gray;
+	text-decoration:none;
+	position:absolute;
+	right:95;
+	top:25;}
+
+	#contact {font-size:12pt;
+	color:gray;
+	text-decoration:none;
+	position:absolute;
+	right:20;
+	top:25;}
+
+	#separ1 {font-size:12pt;
+	color:gray;
+	position:absolute;
+	right:150;
+	top:25;}
+
+	#separ2 {font-size:12pt;
+	color:gray;
+	position:absolute;
+	right:70;
+	top:25;}
+
+	#centerback {clear:both;
+	position:relative;
+	flex: 0 0 auto;}
+
+	#aboutme {background-color:mintcream;
+	height:1100;
+	width:650;
+	float:left;
+	position:absolute;
+	top:100;
+	left:100;
+	border: 1px solid lightgray;
+	z-index:1;}
+
+	#bioheader {color:teal;
+	font-size:30px;
+	font-family:georgia, serif;
+	font-weight:bold;
+	text-align:left;
+	position:absolute;
+	clear:both;
+	top:30;
+	left:20;}
+
+	.contenthr {width:600;
+	height:2px;
+	background-color:lightgray;
+	align-items:left;}
+
+	#aboutimg {margin:110px 20px 20px 20px;
+	float:left;
+	border: 1px solid lightgray;}
+
+	#biotext {text-align:left;
+	display:block;
+	margin-top:110px;
+	float:right;}
+
+	ul.circle {list-style:circle;}
+
+	li.facts {margin-left:50px;
+	margin-right:20px;}
+
+	.aboutp {margin-left:20px; 
+	margin-right:20px;}
+
+	.postscript {margin-left:20px; 
+	margin-right:20px;
+	font-size:9pt;}
+
+	#pfolioHeader {color:teal;
+	font-size:30px;
+	font-family:georgia, serif;
+	font-weight:bold;
+	text-align:left;
+	position:absolute;
+	clear:both;
+	top:30;
+	left:50;}
+
+	#pfolio {background-color:mintcream;
+	height:800;
+	width:94%;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border: 1px solid lightgray;
+	overflow:none;
+	z-index:1;}
+
+	.pfoliohr {width:90%;
+	margin-top:80;
+	height:2px;
+	background-color:lightgray;
+	align-items:left;}
+
+	#gallery {margin-left:100;
+	margin-top:40;}
+
+	.pfolioImage {margin-left:20;
+	margin-right:20;
+	margin-bottom:15px;}
+
+	#contactmain {background-color:mintcream;
+	height:620;
+	width:94%;
+	overflow:none;
+	margin-top:30px;
+	margin-bottom:25px;
+	margin-left:20px;
+	border: 1px solid lightgray;
+	z-index:1;}
+
+	#contactHeader {color:teal;
+	font-size:30px;
+	font-family:georgia, serif;
+	font-weight:bold;
+	text-align:left;
+	position:absolute;
+	clear:both;
+	top:30;
+	margin-left:20;}
+
+	#contacthr {width:390;
+	height:2px;
+	background-color:lightgray;
+	align-items:left;}
+
+	#nameDiv {position:absolute;
+	color:gray;
+	top:100;
+	margin-left:20;}
+
+	#nameform {position:absolute;
+	color:gray;}}
+
+	#emailDiv {position:absolute;
+	color:gray;
+	top:140;}
+
+	#emailform {position:absolute;
+	color:gray;}
+
+	#messageDiv {position:absolute;
+	color:gray;
+	top:180;}
+
+	#messageform {position:absolute;
+	color:gray;}
+
+	#submitbtn{position:absolute;
+	top:490;
+	left:20;
+	padding:6px 20px 6px 20px;
+	font-size:12pt;
+	background-color:teal;
+	color:white;
+	border:1px solid;
+	border-color:lightblue;}
+
+	#connectSec {background-color:mintcream;
+	height:190;
+	width:270;
+	margin-left:20px;
+	border: 1px solid lightgray;
+	position:absolute;
+	z-index:1;}
+
+	#conhead {color:teal;
+	font-size:24px;
+	font-family:georgia, serif;
+	font-weight:bold;
+	clear:both;
+	position:absolute;
+	top:20;
+	left:20;}
+
+	#connecthr {width:230;
+	height:1px;
+	position:absolute;
+	background-color:lightgray;
+	top:50;
+	left:20;}
+
+	#github {position:absolute;
+	top:90;
+	left:20;
+	border: 1px solid lightgray;}
+
+	#linkedin {position:absolute;
+	top:90;
+	left:102;
+	border: 1px solid lightgray;}
+
+	#stack {position:absolute;
+	top:90;
+	left:184;
+	border: 1px solid lightgray;}
+
+	#aboutfoot {background-color:dimgray;
+	padding-top:33px;
+	padding-bottom:33px;
+	position:absolute;
+	top:1150;
+	width:100%;
+	border-top:7px;
+	border-style:solid;
+	border-top-color:teal;
+	z-index:1;}
+
+	#portfoot {background-color:dimgray;
+	padding-top:33px;
+	padding-bottom:33px;
+	position:absolute;
+	top:1550;
+	width:100%;
+	border-top:7px;
+	border-style:solid;
+	border-top-color:teal;
+	z-index:1;}
+
+	#contfoot {background-color:dimgray;
+	padding-top:33px;
+	padding-bottom:33px;
+	position:absolute;
+	top:970;
+	width:100%;
+	border-top:7px;
+	border-style:solid;
+	border-top-color:teal;
+	z-index:1;}
+
+	#foottext {font-size:8pt;
+	color:mintcream;
+	text-align: center;}
+}
