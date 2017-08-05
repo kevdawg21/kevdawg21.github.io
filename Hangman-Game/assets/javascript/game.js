@@ -1098,6 +1098,7 @@ document.onkeyup = function(event) {
 		hangMan.correct = 0;
 		hangMan.numGuess = 6;
 		hangMan.wins++;
+		hangMan.guessed = [];
 		function upWin() {document.getElementById("winCounter").innerHTML = ("Wins: " + hangMan.wins)
 			document.getElementById("guessRemain").innerHTML = "Number of Guesses Remaining: 6";
 			document.getElementById("lettGuess").innerHTML = " ";};
@@ -1180,11 +1181,12 @@ document.onkeyup = function(event) {
 			clearLines();
 			hangMan.correct = 0;
 			hangMan.numGuess = 6;
+			hangMan.guessed = [];
 			document.getElementById("guessRemain").innerHTML = "Number of Guesses Remaining: 6";
 			document.getElementById("lettGuess").innerHTML = " ";};
 			var audio = new Audio("http://soundbible.com/mp3/Loud_Bang-Osama_Bin_Laden-925764326.mp3");
 			audio.play();
-		loseGame()};
+			loseGame()};
 	}
 }; // still to code: reset letters guessed, num guesses resets on wins, recognize non alpha keys
 
