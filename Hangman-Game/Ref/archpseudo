@@ -1,0 +1,12 @@
+state0: Pregame. prompt=true, #guess=6, targetWord=none, letMiss=[], linesRevealed=none
+	a: triggerPrompt {state1}
+state1: Play. prompt=false, targetWord=assignWord(random), assignWord(random)=assignLetters(1,2,..7)
+	a: guessLetter(l) 
+		a1: if guessLetter(l)=assignLetters(1,2,..7) {revealLetter(x)}
+			a1 i: (if linesRevealed=7) {win; state0}
+			a1 ii: (if linesRevealed<7) {a:}
+		a2: if guessLetter(l)!=assignLetters(1,2,..7) {missLetter(x)}
+			a2 i: if #guess=0 {loss; state0}
+			a2 ii: if #guess>0 {a:}
+
+

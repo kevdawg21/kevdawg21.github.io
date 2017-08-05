@@ -1,0 +1,132 @@
+/* css stylesheet for Hangman Game */
+
+body {box-sizing:border-box;}
+
+#logoDiv {}
+
+#logoImg {display:block; 
+	margin:auto;}
+
+#scaffoldDiv {float:right;
+	margin-top:0px;
+	margin-right:10px;}
+
+#startGameDiv {text-align:center;
+	height:40px;}
+
+#startGame {margin-top:20px;}
+
+#dashboard {display:block; 
+	float:right;
+	margin-top:80px;
+	margin-left:auto;
+	margin-right:20px;
+	padding:50px 0px 50px 0px;
+	width:260px;
+	background-color:lightgray;
+	border:1px gray solid;}
+
+#guessRemain {text-align:center;}
+
+#winCounter {text-align:center;}
+
+#lettersDiv {padding:50px 0px 50px 0px;
+	width:300px;
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;}
+
+#ltrHolder0 {display:inline;
+	float:left;
+	margin-left:14px;
+	margin-right:26px;}
+#ltrHolder1 {display:inline;
+	float:left;
+	margin-right:26px;}
+#ltrHolder2 {display:inline;
+	float:left;
+	margin-right:26px;}
+#ltrHolder3 {display:inline;
+	float:left;
+	margin-right:26px;}
+#ltrHolder4 {display:inline;
+	float:left;
+	margin-right:26px;}
+#ltrHolder5 {display:inline;
+	float:left;
+	margin-right:26px;}
+#ltrHolder6 {display:inline;
+	float:left;}
+
+#ltr0 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+	opacity:0;
+}
+#ltr1 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+	opacity:0;
+}
+#ltr2 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+	opacity:0;
+}
+#ltr3 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+	opacity:0;
+}
+#ltr4 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+	opacity:0;
+}
+#ltr5 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+	opacity:0;
+}
+#ltr6 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+	opacity:0;
+}
+
+#line0 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+}
+#line1 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+}
+#line2 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+}
+#line3 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+}
+#line4 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+}
+#line5 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+}
+#line6 {font-weight:bold;
+	font-size:24pt;
+	display:block;
+}
+
+#lettersGuessedDiv {padding:40px;
+	background-color:lightgray;}
+
+#lettersGuessed {text-align:center;
+	text-decoration:underline;
+	margin-bottom:10px;}
+#lettGuess {text-align:center;}

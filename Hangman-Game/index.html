@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="us-en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HANGMAN Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/game.js"></script>
+	<style> .revealLine {opacity:100;} </style>
+</head>
+
+<body>
+	<div id="dashboard">
+	<div id="startGameDiv">
+		<p id="startGame">Press Any Key To Begin Game!</p>
+	</div>
+		<p id="guessRemain">Number of Guesses Remaining: 6</p>
+		<br>
+		<p id="winCounter">Wins: 0</p>
+	</div>
+	<div id="scaffoldDiv"><img id="condemned" src="assets/images/scaffold.png" alt="scaffold"></div>
+	<div id="lettersDiv">
+		<div id="ltrHolder0">
+			<p id="ltr0">?</p>
+			<p id="line0">_</p>
+		</div>
+		<div id="ltrHolder1">
+			<p id="ltr1">?</p>
+			<p id="line1">_</p>
+		</div>
+		<div id="ltrHolder2">
+			<p id="ltr2">?</p>
+			<p id="line2">_</p>
+		</div>
+		<div id="ltrHolder3">
+			<p id="ltr3">?</p>
+			<p id="line3">_</p>
+		</div>
+		<div id="ltrHolder4">
+			<p id="ltr4">?</p>
+			<p id="line4">_</p>
+		</div>
+		<div id="ltrHolder5">
+			<p id="ltr5">?</p>
+			<p id="line5">_</p>
+		</div>
+		<div id="ltrHolder6">
+			<p id="ltr6">?</p>
+			<p id="line6">_</p>
+		</div>
+	</div>
+	<div id="lettersGuessedDiv">
+		<p id="lettersGuessed">Letters Already Guessed</p>
+		<p id="lettGuess"><p>
+	</div>
+	<div id="logoDiv"><img id="logoImg" src="assets/images/logoImg.jpg" alt="logoImg"></div>
+</body>
+
+</html>
