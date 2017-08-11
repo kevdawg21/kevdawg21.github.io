@@ -1,0 +1,87 @@
+* {box-sizing:border-box;}
+
+body {background-image:url("../images/back.jpg")}
+
+#gameTitle {background-color:mintcream;
+	color:silver;
+	width:250px;
+	padding:5px 0px 5px 0px;
+	border:1px gray solid;
+	font-size:24pt;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:center;}
+
+#gameRules {background-color:mintcream;
+	height:340px;
+	width:300px;
+	font-size:12pt;
+	margin-top:10px;
+	margin-left:10px;
+	border:1px gray solid;}
+
+.rules {color:green;
+	margin-left:10px;
+	margin-top:10px;}
+
+#targetDiv {background-color:green;
+	height:100px;
+	width:150px;
+	font-size:18pt;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	float:left;
+	border:1px gray solid;}
+
+#targetNum {margin:10px 0px 0px 10px;}
+
+#dashboard {background-color:green;
+	height:100px;
+	width:100px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	border:1px gray solid;}
+
+#winLabel {margin-top:20px;
+	margin-left:10px;
+	font-size:10pt;}
+
+#lossLabel {margin-top:20px;
+	margin-left:10px;
+	font-size:10pt;}
+
+#winCtr {margin-top:20px;
+	font-size:10pt;}
+
+#lossCtr {margin-top:20px;
+	font-size:10pt;}
+
+#crystHold {clear:both;
+	margin-top:100px;
+	margin-left:10px;}
+
+.crystImg {border:1px white solid;}
+
+#scoreTitle {background-color:teal;
+	width:150px;
+	padding:10px 0px 10px 10px;
+	font-size:12px;
+	margin-top:10px;
+	margin-left:10px;
+	border:1px gray solid;}
+
+#playerScore {background-color:teal;
+	height:100px;
+	width:150px;
+	font-size:18pt;
+	margin-top:10px;
+	margin-left:10px;
+	border:1px gray solid;}
+
+#score {margin:10px 0px 0px 10px;}
+
+#message {margin:10px 0px 0px 10px;
+	color:silver;}

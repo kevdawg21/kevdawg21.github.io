@@ -1,0 +1,43 @@
+<!doctype=html>
+<html lang="us-en">
+
+<head>
+	<meta charset="UTF-8">
+	<title><h1>Crystals Collector</h1></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<div id="gameTitle">CrystalsCollector!</div>
+	<div id="gameRules">
+		<p class="rules">You will be given a random number at the start of the game.</p><br>
+		<p class="rules">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p><br>
+		<p class="rules">You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p><br>
+		<p class="rules">The value of each crystal is hudden from you until you click on it.</p><br>
+		<p class="rules">Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+	<div id="targetDiv"><h2 id="targetNum"></h2></div>
+	<div id="dashboard">
+		<p id="winLabel">Wins: <span id="winCtr">0</span></p>
+		<p id="lossLabel">Losses: <span id="lossCtr">0</span></p>
+	</div>
+	<div id="crystHold">
+		<img id="glamImg" class="crystImg" src="assets/images/glam.png">
+		<img id="fireImg" class="crystImg" src="assets/images/fire.png">
+		<img id="oreImg" class="crystImg" src="assets/images/ore.png">
+		<img id="waterImg" class="crystImg" src="assets/images/water.png">
+	</div>
+	<div id="scoreTitle">Your total score is:</div>
+	<div id="playerScore">
+		<h2 id="score"></h2>
+		<h2 id="message"></h2>
+	</div>
+
+	<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
