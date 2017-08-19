@@ -66,13 +66,13 @@ body {background-image:url("../images/back.jpg");}
 	padding-left:10px;
 	padding-top:10px;
 	width:360px;
-	height:100px;
+	height:110px;
 	border:1px dimgray solid;	
 }
 
 #question {
 	position:absolute;
-	top:140px;
+	top:150px;
 	left:20px;
 	background-color:black;
 	font-weight:bold;
@@ -81,7 +81,7 @@ body {background-image:url("../images/back.jpg");}
 	padding-left:10px;
 	padding-top:10px;
 	width:360px;
-	height:100px;
+	height:90px;
 	border:1px dimgray solid;
 }
 
