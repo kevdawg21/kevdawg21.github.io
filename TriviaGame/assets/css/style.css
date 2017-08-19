@@ -20,8 +20,12 @@ body {background-image:url("../images/back.jpg");}
 	position:absolute;
 	top:120px;
 	left:50px;
-	color:blue;
+	color:red;
 	border:2px silver solid;
+}
+
+#launch:active {
+	background-color:dimgray;
 }
 
 #launch:hover {
@@ -96,6 +100,10 @@ body {background-image:url("../images/back.jpg");}
 
 .answer:hover {
 	cursor:pointer;
+}
+
+.answer:active {
+	background-color:blue;
 }
 
 #oa {margin-top:260px;
