@@ -64,6 +64,7 @@ body {background-image:url("../images/back.jpg");}
 	font-weight:bold;
 	color:blue;
 	padding-left:10px;
+	padding-right:10px;
 	padding-top:10px;
 	width:360px;
 	height:110px;
@@ -79,6 +80,7 @@ body {background-image:url("../images/back.jpg");}
 	font-family: monospace;
 	color:blue;
 	padding-left:10px;
+	padding-right:10px;
 	padding-top:10px;
 	width:360px;
 	height:90px;
