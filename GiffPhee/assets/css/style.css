@@ -9,7 +9,8 @@ body {background-color:lightgray;}
 
 #searchform {float:right;
 	display:block;
-	margin-bottom:20px;}
+	margin-bottom:20px;
+	margin-right:20px;}
 
 #newmovie {width:300px;
 	border:2px teal solid;
