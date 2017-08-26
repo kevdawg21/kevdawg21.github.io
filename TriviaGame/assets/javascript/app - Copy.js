@@ -1,4 +1,87 @@
+var qapairs = {
 
+        pair: [
+	{
+		qu: "What is the closest planet to the sun?",
+		oa: "Venus",
+		ob: "Mercury",
+		oc: "Earth",
+		od: "Jupiter",
+		an: "B"
+	},
+	{
+		qu: "What planet is closest to the Earth?",
+		oa: "Venus",
+		ob: "Mercury",
+		oc: "Jupiter",
+		od: "Mars",
+		an: "A"
+	},
+	{
+		qu: "What planet is farthest from the sun?",
+		oa: "Mars",
+		ob: "Neptune",
+		oc: "Saturn",
+		od: "Mercury",
+		an: "B"
+	},
+	{
+		qu: "What is the closest star to the sun?",
+		oa: "Alpha Centauri A",
+		ob: "Alpha Centauri B",
+		oc: "Proxima Centauri",
+		od: "Sirius",
+		an: "C"
+	},
+	{
+		qu: "How many planets orbit the sun?",
+		oa: "4",
+		ob: "8",
+		oc: "9",
+		od: "13",
+		an: "B"
+	},
+	{
+		qu: "Which of the following planets does not have any moons?",
+		oa: "Saturn",
+		ob: "Mars",
+		oc: "Venus",
+		od: "Uranus",
+		an: "C"
+	},
+	{
+		qu: "Which is the most massive planet orbiting the sun?",
+		oa: "Earth",
+		ob: "Mars",
+		oc: "Jupiter",
+		od: "Saturn",
+		an: "C"
+	},
+	{
+		qu: "Which is the hottest planet orbiting the sun?",
+		oa: "Mercury",
+		ob: "Mars",
+		oc: "Jupiter",
+		od: "Venus",
+		an: "D"
+	},
+	{
+		qu: "How far is the moon from the Earth's surface?",
+		oa: "247 miles",
+		ob: "247,000 miles",
+		oc: "2.47 million miles",
+		od: "2.47 light years",
+		an: "B"
+	},
+	{
+		qu: "Approximately long does it take light from the sun to reach Earth?",
+		oa: "82 seconds",
+		ob: "8 minutes and 20 seconds",
+		oc: "8 hours and 20 minutes",
+		od: "820 minutes",
+		an: "B"
+	}]
+};
 
 var correct = 0;
 var incorrect = 0;
